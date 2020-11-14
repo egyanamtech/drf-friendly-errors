@@ -13,6 +13,8 @@ matrix:
     - python: 3.6
       env: TOX_ENV=py36-django111-drf311
     - python: 3.6
+      env: TOX_ENV=py36-django111-drf312
+    - python: 3.6
       env: TOX_ENV=py36-django20-drf37
     - python: 3.6
       env: TOX_ENV=py36-django20-drf38
@@ -22,6 +24,8 @@ matrix:
       env: TOX_ENV=py36-django20-drf310
     - python: 3.6
       env: TOX_ENV=py36-django20-drf311
+    - python: 3.6
+      env: TOX_ENV=py36-django20-drf312
     - python: 3.6
       env: TOX_ENV=py36-django21-drf37
     - python: 3.6
@@ -33,6 +37,8 @@ matrix:
     - python: 3.6
       env: TOX_ENV=py36-django21-drf311
     - python: 3.6
+      env: TOX_ENV=py36-django21-drf312
+    - python: 3.6
       env: TOX_ENV=py36-django22-drf37
     - python: 3.6
       env: TOX_ENV=py36-django22-drf38
@@ -42,6 +48,8 @@ matrix:
       env: TOX_ENV=py36-django22-drf310
     - python: 3.6
       env: TOX_ENV=py36-django22-drf311
+    - python: 3.6
+      env: TOX_ENV=py36-django22-drf312
     - python: 3.7
       env: TOX_ENV=py37-django111-drf37
     - python: 3.7
@@ -53,6 +61,8 @@ matrix:
     - python: 3.7
       env: TOX_ENV=py37-django111-drf311
     - python: 3.7
+      env: TOX_ENV=py37-django111-drf312
+    - python: 3.7
       env: TOX_ENV=py37-django20-drf37
     - python: 3.7
       env: TOX_ENV=py37-django20-drf38
@@ -62,6 +72,8 @@ matrix:
       env: TOX_ENV=py37-django20-drf310
     - python: 3.7
       env: TOX_ENV=py37-django20-drf311
+    - python: 3.7
+      env: TOX_ENV=py37-django20-drf312
     - python: 3.7
       env: TOX_ENV=py37-django21-drf37
     - python: 3.7
@@ -73,6 +85,8 @@ matrix:
     - python: 3.7
       env: TOX_ENV=py37-django21-drf311
     - python: 3.7
+      env: TOX_ENV=py37-django21-drf312
+    - python: 3.7
       env: TOX_ENV=py37-django22-drf37
     - python: 3.7
       env: TOX_ENV=py37-django22-drf38
@@ -82,6 +96,8 @@ matrix:
       env: TOX_ENV=py37-django22-drf310
     - python: 3.7
       env: TOX_ENV=py37-django22-drf311
+    - python: 3.7
+      env: TOX_ENV=py37-django22-drf312
     - python: 3.8-dev
       env: TOX_ENV=py38-django111-drf37
     - python: 3.8-dev
@@ -93,6 +109,8 @@ matrix:
     - python: 3.8-dev
       env: TOX_ENV=py38-django111-drf311
     - python: 3.8-dev
+      env: TOX_ENV=py38-django111-drf312
+    - python: 3.8-dev
       env: TOX_ENV=py38-django20-drf37
     - python: 3.8-dev
       env: TOX_ENV=py38-django20-drf38
@@ -102,6 +120,8 @@ matrix:
       env: TOX_ENV=py38-django20-drf310
     - python: 3.8-dev
       env: TOX_ENV=py38-django20-drf311
+    - python: 3.8-dev
+      env: TOX_ENV=py38-django20-drf312
     - python: 3.8-dev
       env: TOX_ENV=py38-django21-drf37
     - python: 3.8-dev
@@ -113,6 +133,8 @@ matrix:
     - python: 3.8-dev
       env: TOX_ENV=py38-django21-drf311
     - python: 3.8-dev
+      env: TOX_ENV=py38-django21-drf312
+    - python: 3.8-dev
       env: TOX_ENV=py38-django22-drf37
     - python: 3.8-dev
       env: TOX_ENV=py38-django22-drf38
@@ -122,6 +144,8 @@ matrix:
       env: TOX_ENV=py38-django22-drf310
     - python: 3.8-dev
       env: TOX_ENV=py38-django22-drf311
+    - python: 3.8-dev
+      env: TOX_ENV=py38-django22-drf312
     - python: 3.7
       env: TOX_ENV=lint
     - python: 3.7
