@@ -23,3 +23,6 @@ jobs:
     
     - name: Build and Publish
       run: python setup.py publish
+      env:
+        TWINE_PASSWORD: ${{secrets.TWINE_PASSWORD}}
+        TWINE_USERNAME: ${{secrets.TWINE_USERNAME}}
