@@ -3,11 +3,11 @@ DRF Friendly Errors (New Version: Django & DRF)
 
 **Extension for Django REST framework error display**
 
-.. image:: https://travis-ci.org/frankyjquintero/drf-friendly-errors.svg?branch=master
-    :target: https://travis-ci.org/frankyjquintero/drf-friendly-errors
+.. image:: https://github.com/egyanamtech/drf-friendly-erros/actions/workflows/test.yml/badge.svg?branch=master
+    :target: https://github.com/egyanamtech/drf-friendly-erros/actions/workflows/test.yml/badge.svg
 
 
-* Fork From: https://github.com/FutureMind/drf-friendly-errors
+* Fork From: https://github.com/FutureMind/drf-friendly-errors -> https://github.com/citixensas/drf-friendly-errors -> https://github.com/bd808/drf-friendly-errors
 
 Overview
 --------
@@ -357,3 +357,8 @@ Contributors
 ------------
 - Geoffrey Lehée <socketubs>
 - Franky Quintero <frankyjquintero>
+- toxinu
+- citixensas
+- bd808
+
+And many others, feel free to add a PR to add yourself.
