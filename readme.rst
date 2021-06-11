@@ -3,8 +3,8 @@ DRF Friendly Errors (New Version: Django & DRF)
 
 **Extension for Django REST framework error display**
 
-.. image:: https://github.com/egyanamtech/drf-friendly-erros/actions/workflows/test.yml/badge.svg?branch=master
-    :target: https://github.com/egyanamtech/drf-friendly-erros/actions/workflows/test.yml/badge.svg
+.. image:: https://github.com/egyanamtech/drf-friendly-errors/actions/workflows/test.yml/badge.svg?branch=master
+    :target: https://github.com/egyanamtech/drf-friendly-errors/actions/workflows/test.yml/badge.svg
 
 
 * Fork From: https://github.com/FutureMind/drf-friendly-errors -> https://github.com/citixensas/drf-friendly-errors -> https://github.com/bd808/drf-friendly-errors
@@ -78,7 +78,7 @@ Or using pip (pendent register xD)
 
 .. code:: bash
 
-    $ pip install drf-friendly-errors
+    $ pip install drf-friendly-errors-egt
 
 Usage
 -----
