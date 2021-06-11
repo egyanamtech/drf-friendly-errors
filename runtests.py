@@ -48,6 +48,13 @@ def flake8_main(args):
     return ret
 
 
+def black_main():
+    print("Running black code formatting")
+    ret = subprocess.call(["black", "--check", "."])
+    print("black failed" if ret else "black passed")
+    return ret
+
+
 def isort_main(args):
     print("Running isort code checking")
     ret = subprocess.call(["isort"] + args)
@@ -83,9 +90,11 @@ if __name__ == "__main__":
     except ValueError:
         run_flake8 = True
         run_isort = True
+        run_black = True
     else:
         run_flake8 = False
         run_isort = False
+        run_black = False
 
     try:
         sys.argv.remove("--lintonly")
@@ -102,6 +111,7 @@ if __name__ == "__main__":
         style = "fast"
         run_flake8 = False
         run_isort = False
+        run_black = False
 
     if len(sys.argv) > 1:
         pytest_args = sys.argv[1:]
@@ -141,3 +151,6 @@ if __name__ == "__main__":
 
     if run_isort:
         exit_on_failure(isort_main(ISORT_ARGS))
+
+    if run_black:
+        exit_on_failure(black_main())
