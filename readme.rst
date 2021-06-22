@@ -96,17 +96,18 @@ settings.py
 
 .. code:: python
 
-    FRIENDLY_ERRORS = {
-        FIELD_ERRORS = {
-            'CharField': {'required': 10, 'null':11, 'blank': 12, 'max_length': 13, 'min_length': 14}
-        }
-        VALIDATOR_ERRORS = {
-            'UniqueValidator': 50
-        },
-        EXCEPTION_DICT = {
-            'PermissionDenied': 100
-        }
+FRIENDLY_ERRORS = {
+    "FIELD_ERRORS": {
+        'CharField': {'required': 10, 'null': 11, 'blank': 12, 'max_length': 13, 'min_length': 14}
+    },
+    "VALIDATOR_ERRORS": {
+        'UniqueValidator': 50
+    },
+    "EXCEPTION_DICT": {
+        'PermissionDenied': 100
     }
+}
+
 
 Custom serializer validation
 ----------------------------
