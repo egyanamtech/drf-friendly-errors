@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.conf import settings as dj_settings
 from django.core.exceptions import ValidationError as DjangoValidationError
 from django.utils import timezone
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from rest_framework.exceptions import ErrorDetail
 from rest_framework.exceptions import ValidationError as RestValidationError
 from rest_framework.settings import api_settings
@@ -248,7 +248,7 @@ class FriendlyErrorMessagesMixin(FieldMap):
 
         if isinstance(error, dict):
             _, errors = list(error.items())[0]
-            error = force_text(errors[0])
+            error = force_str(errors[0])
 
         if self.is_default_error(error):
             return {
